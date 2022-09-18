@@ -1,0 +1,303 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Parisienne&display=swap");
+root {
+  --inv-bg: #e4ddd7;
+  --inv-base: #956032;
+  --inv-accent: #5a523f;
+  --inv-border: #5a523f;
+  --font-base: "Marcellus", serif;
+  --font-accent: "Gwendolyn", cursive;
+  --font-latin: "Gwendolyn", cursive;
+  --menu-bg: #e4ddd7;
+  --menu-inactive: #b8b0a3;
+  --menu-active: #956032;
+  --btn-color: #e4ddd7;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Marcellus", serif;
+  font-size: 16px;
+  line-height: 1.7;
+  box-sizing: border-box;
+  /* overflow-y: hidden; */
+}
+main {
+  margin: 0 auto;
+  max-width: 480px;
+  background-color: #e4ddd7;
+}
+main .nama-pasangan {
+  font-size: 28px;
+  font-family: "Parisienne", cursive;
+  font-weight: 500;
+  color: #5a523f;
+}
+main .nama-pasangan.dan {
+  margin: -10px 0;
+  font-size: 46px;
+}
+main p {
+  font-size: 12px;
+  color: #956032;
+  width: 300px;
+  padding: 0 25px;
+}
+main p.justify {
+  text-align: justify;
+}
+main .nama-tamu {
+  font-size: 20px;
+  color: #5a523f;
+  margin: 5px 0;
+}
+main .btn {
+  padding: 6px 12px;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+main .btn-primary {
+  background-color: #5a523f;
+}
+/* Section */
+
+main .section {
+  padding: 10px 0 80px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+main .section img.img-utama {
+  width: 240px;
+  height: auto;
+}
+main .section img.img-pasangan {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px #b8b0a3;
+  border-radius: 50px;
+}
+/* main .section .content {
+  margin: 0px auto;
+} */
+main .section .row {
+  display: flex;
+  padding: 20px 40px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+main .section .row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 10px 0;
+}
+main .section .row .col p {
+  margin-top: 10px;
+  width: auto;
+  line-height: 17px;
+}
+main .section .row .col img {
+  width: 80px;
+}
+main .section .frame img {
+  width: auto;
+  height: 300px;
+}
+main .section .frame img.frame3,
+main .section .frame img.frame4 {
+  height: 210px;
+  width: auto;
+}
+main .section .frame img.frame5 {
+  width: auto;
+  height: 135px;
+}
+.frame1,
+.frame2,
+.frame3,
+.frame4,
+.frame5 {
+  position: absolute;
+}
+main .section .frame img.frame1 {
+  left: 0;
+  top: 0;
+}
+main .section .frame img.frame2 {
+  right: 0;
+  top: 0;
+}
+main .section .frame img.frame3 {
+  left: 0;
+  bottom: 0;
+}
+main .section .frame img.frame4 {
+  right: 0;
+  bottom: 0;
+}
+main .section .frame img.frame5 {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+
+/* Section 1*/
+main .section1 {
+  padding: 80px 0 90px 0;
+}
+/* Akhir Section 1*/
+
+/* Section 2*/
+main .section2 {
+  padding: 70px 0 80px 0;
+}
+/* Akhir Section 2*/
+
+/* Akhir Section 3*/
+main .section3 {
+  padding: 60px 0 90px 0;
+}
+/* Akhir Section 3*/
+
+/* Section 4*/
+main .section4 {
+  padding: 60px 0 90px 0;
+}
+main .section4 hr {
+  width: 80%;
+  border: 0.1px solid #b8b0a3;
+  margin: 15px auto;
+}
+main .section4 img.img-hotel {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 0 2px #b8b0a3;
+  border-radius: 50px;
+  margin: 20px 0 5px 0;
+}
+/* Akhir Section 4*/
+
+/* Section 5*/
+main .section5 {
+  padding: 110px 0 90px 0;
+}
+main iframe {
+  width: 250px;
+  height: 250px;
+  border: none;
+}
+main .section5 a {
+  text-decoration: none;
+  margin: 10px 0;
+}
+/* Akhir Section 5*/
+
+/* Section 6*/
+main .section6 {
+  padding: 120px 0 90px 0;
+}
+/* Akhir Section 6*/
+
+/* Section 7*/
+main .section7 {
+  padding: 80px 0 90px 0;
+}
+main .section7 form input,
+main .section7 form select {
+  width: 80%;
+  height: 45px;
+  padding: 5px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+main .section7 form textarea {
+  width: 80%;
+  padding: 5px;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+textarea:focus,
+input:focus {
+  outline: 1px solid #956032;
+}
+/* Akhir Section 7*/
+
+/* Section 8*/
+main .section8 {
+  padding: 170px 0 90px 0;
+}
+main .section8 .kirimHadiah {
+  top: 440px;
+  position: absolute;
+  visibility: hidden;
+}
+main .section8 .kirimHadiah.active,
+main .section8 .kirimKado.active {
+  visibility: visible;
+  top: 420px;
+  transition: 0.5s;
+}
+main .section8 .kirimKado {
+  position: absolute;
+  visibility: hidden;
+  top: 440px;
+}
+main .section8 .kirimHadiah img {
+  width: 200px;
+}
+main .section8 p.title {
+  font-size: 22px !important;
+}
+/* Akhir Section 8*/
+
+/* Section 9 */
+main .section9 {
+  padding: 190px 0 90px 0;
+}
+main .section9 p.salamHormat {
+  margin-top: 30px;
+}
+/* Akhir Section 9 */
+@media screen and (max-width: 480px) {
+  /* main .section {
+    padding: 120px 30px 80px 30px;
+  } */
+  main .section1,
+  main .section3,
+  main .section7 {
+    padding: 170px 30px 90px 30px;
+  }
+  main .section2 {
+    padding: 210px 30px 80px 30px;
+  }
+  main .section4 {
+    padding: 190px 30px 90px 30px;
+  }
+  main .section5 {
+    padding: 230px 0 90px 0;
+  }
+  main .section6 {
+    padding: 190px 30px 90px 30px;
+  }
+  main .section7 {
+    padding: 190px 30px 90px 30px;
+  }
+  main .section8 {
+    padding: 200px 30px 90px 30px;
+  }
+  main .section9 {
+    padding: 290px 30px 90px 30px;
+  }
+}
