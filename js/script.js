@@ -1,3 +1,4 @@
+/*==================== Animasi Kirim Hadiah &  Kado ====================*/
 const hadiah = document.getElementById('hadiah');
 const kado = document.getElementById('kado');
 const kirimHadiah = document.getElementById('kirimHadiah');
@@ -17,14 +18,4 @@ kado.addEventListener('click', () => {
     kirimHadiah.classList.remove('active')
 })
 
-// function cekKode(param1) {
-//     if (param1 == "berhasil") {
-//         kirimKado.classList.add('active');
-//         kirimHadiah.classList.remove('active');
-//     } else {
-//         kirimKado.classList.remove('active');
-//         kirimHadiah.classList.remove('active');
-//         console.log("remove")
-//     }
-// }
-// cekKode("berhasil")
+/*==================== Animasi Kirim Hadiah &  Kado ====================*/
